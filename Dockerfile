@@ -31,5 +31,4 @@ ADD startup.sh /
 
 EXPOSE 5900
 WORKDIR /root
-ENTRYPOINT ["/startup.sh"]
 
