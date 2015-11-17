@@ -13,6 +13,7 @@ RUN apt-get update \
         x11vnc \
         xvfb \
         xdotool \
+        x11-apps \
     && apt-get autoclean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
